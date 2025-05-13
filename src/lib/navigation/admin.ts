@@ -90,9 +90,15 @@ export const adminNavigation: NavItem[] = [
         current: false,
       },
       {
-        name: 'Add Contractor',
+        name: 'Masterlist',
         icon: faSliders,
-        href: '/admin/configure/add-contractor',
+        href: '/admin/configure/masterlist',
+        current: false,
+      },
+      {
+        name: 'Custom Questions',
+        icon: faSliders,
+        href: '/admin/configure/custom-questions',
         current: false,
       },
       {
@@ -105,6 +111,12 @@ export const adminNavigation: NavItem[] = [
         name: 'Project Type',
         icon: faSliders,
         href: '/admin/configure/project-type',
+        current: false,
+      },
+      {
+        name: 'Add Contractor',
+        icon: faSliders,
+        href: '/admin/configure/add-contractor',
         current: false,
       },
     ],
